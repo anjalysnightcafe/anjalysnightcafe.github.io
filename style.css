@@ -9,12 +9,12 @@
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     color: #333;
-    background: url('images/menu.jpg');
+    background: linear-gradient(135deg, #f3eac2, #e6b89c);
   }
   
   /* Hero Section */
   .hero {
-    background: url('images/caffe.jpg')no-repeat center center/cover;
+    background: cafe.png;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -51,7 +51,7 @@
   
   .btn {
     padding: 10px 20px;
-    background: #5650ff;
+    background: #ff7f50;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -100,7 +100,7 @@
   
   /* Footer */
   footer {
-    background: #c50707;
+    background: #333;
     color: #fff;
     text-align: center;
     padding: 10px;
