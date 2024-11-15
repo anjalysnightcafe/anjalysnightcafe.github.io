@@ -1,0 +1,91 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('cafe-background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero-content h1 {
+    font-size: 3em;
+    animation: fadeIn 2s ease;
+  }
+  
+  .hero-content p {
+    font-size: 1.2em;
+    margin: 10px 0;
+    animation: fadeIn 3s ease;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: fadeIn 4s ease;
+  }
+  
+  .btn:hover {
+    background-color: #ff4500;
+    transition: background-color 0.3s;
+  }
+  
+  /* Sections */
+  section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  #menu .menu-item {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  #menu .menu-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #ff7f50;
+  }
+  
+  /* Contact Section */
+  .contact p {
+    margin: 10px 0;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Keyframe Animations */
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
