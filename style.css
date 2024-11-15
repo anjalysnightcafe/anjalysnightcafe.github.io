@@ -9,12 +9,12 @@
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     color: #333;
-    background: linear-gradient(135deg, #f3eac2, #e6b89c);
+    background: url('images/menu.jpg');
   }
   
   /* Hero Section */
   .hero {
-    background: cafe.png;
+    background: url('images/caffe.jpg')no-repeat center center/cover;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -51,7 +51,7 @@
   
   .btn {
     padding: 10px 20px;
-    background: #ff7f50;
+    background: #5650ff;
     color: #fff;
     border: none;
     border-radius: 5px;
