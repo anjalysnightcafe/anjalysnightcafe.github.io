@@ -6,9 +6,9 @@
   }
   
   body {
-    font-family: 'Arial', sans-serif;
+    font-family: cursive,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: #cd12a2;
     background: url('images/menu.jpg');
   }
   
@@ -60,7 +60,7 @@
   }
   
   .btn:hover {
-    background: #ff4500;
+    background: #b03d13;
     transition: background 0.3s;
   }
   
